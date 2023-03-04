@@ -10,7 +10,7 @@ fn main() {
         Err(_) => return,
     };
 
-    println!("Fibonacci({}) = {}", n, fib(n))
+    println!("Fibonacci({}) = {}", n, fib(n));
 }
 
 fn fib(n: u128) -> u128 {
@@ -21,7 +21,7 @@ fn fib(n: u128) -> u128 {
         b = a + b;
         a = tmp;
     }
-    return b;
+    b
 }
 
 #[cfg(test)]
