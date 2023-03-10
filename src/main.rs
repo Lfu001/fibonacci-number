@@ -53,6 +53,6 @@ mod tests {
         assert_eq!(fib(20), 6765);
         assert_eq!(fib(21), 10946);
         assert_eq!(fib(22), 17711);
-        assert_eq!(fib(23), 28656);
+        assert_eq!(fib(23), 28657);
     }
 }
